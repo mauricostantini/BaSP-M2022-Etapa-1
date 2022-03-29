@@ -22,13 +22,24 @@
     </div>
 
     <!-- First section -->
-    <h1>The future of Remote Work</h1>
-    <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat purus, nulla morbi bibendum in fringilla sed. 
-        Urna, elementum aliquam placerat platea aenean vestibulum varius. Magna elementum neque arcu, vulputate diam, tincidunt.
-        Tempus facilisis feugiat habitant nulla elementum phasellus pulvinar leo sit.
-    </p>
-    <button type="button">Learn More</button>
+    
+    <div class="two-columns">
+        <h1>The future of Remote Work</h1>        
+        <div class="left">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat purus, nulla morbi bibendum in fringilla sed. 
+                Urna, elementum aliquam placerat platea aenean vestibulum varius. Magna elementum neque arcu, vulputate diam, tincidunt.
+                Tempus facilisis feugiat habitant nulla elementum phasellus pulvinar leo sit.
+            </p>
+            <button type="button">Learn More</button>
+        </div>
+        <div class="right">
+            <img src="/images/img-first-01.jpg" width="938" height="769">
+        </div>
+
+
+    </div>
+    
     <!--Agregar imagen de la persona y del gráfico-->
 
     <hr>
@@ -39,14 +50,14 @@
         <div class="left">
             <div class="content">
                 <h2>Timekeeping</h2>
-                <img src="clock.jpg" width="84" height="84">
+                <img src="/images/clock.jpg" width="84" height="84">
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Leo, venenatis volutpat fusce vitae, in suspendisse proin massa. Mattis nulla libero nibh eu nisl sed.
                 </p>
             </div>
             <div class="content">
                 <h2>Reports</h2>
-                <img src="report.jpg" width="84" height="84">
+                <img src="/images/report.jpg" width="84" height="84">
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Leo, venenatis volutpat fusce vitae, in suspendisse proin massa. Mattis nulla libero nibh eu nisl sed.
                 </p>
@@ -55,14 +66,14 @@
         <div class="right">
             <div class="content">
                 <h2>Resource management</h2>
-                <img src="people.jpg" width="84" height="84">
+                <img src="/images/people.jpg" width="84" height="84">
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Leo, venenatis volutpat fusce vitae, in suspendisse proin massa. Mattis nulla libero nibh eu nisl sed.
                 </p>
             </div>
             <div class="content">
                 <h2>Multiple roles</h2>
-                <img src="gear.jpg" width="84" height="84">
+                <img src="/images/gear.jpg" width="84" height="84">
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Leo, venenatis volutpat fusce vitae, in suspendisse proin massa. Mattis nulla libero nibh eu nisl sed.
                 </p>
@@ -111,13 +122,18 @@
             </div>
         </div>
     </div>
-
+    <hr>
     <!-- Form section -->
     <h1>Form</h1>
     <form>
-        <input type="text" id="name" name="Name" placeholder="Name">
-        <input type="email" id="email" name="Mail"placeholder="Mail">
-        <br>
+        <div class="two-columns">
+            <div class="left"> 
+                <input type="text" id="name" name="Name" placeholder="Name">
+            </div>
+            <div class="right"> 
+                <input type="email" id="email" name="Mail"placeholder="Mail">
+            </div>
+        </div>
         <select id="category" name="category" placeholder="Category">
             <option value="cat1">cat1</option>
             <option value="cat2">cat2</option>
@@ -130,12 +146,64 @@
         <button type="little-button">Send Message</button>
         <button type="little-button-white">Reset</button>
     </form>
+    <hr>
 
     <!-- About-us section -->
+    <h1>About us</h1>
+    <div class="two-columns">
+        <div class="left"> 
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis mauris, sit placerat nullam amet, et sit. 
+                Porta vivamus diam vivamus non. Gravida semper nulla eu urna cras elit. Mattis suspendisse consequat tempor 
+                ondimentum commodo malesuada etiam venenatis. Volutpat augue quam commodo nascetur in dolor at egestas 
+                sollicitudin. Nulla non auctor tempus pellentesque. Scelerisque metus tristique auctor scelerisque. 
+                Enim at est id orci at malesuada sed morbi. Quis orci, pretium amet nibh.                
+             </p>
+        </div>
+        <div class="right"> 
+            <img src="img-aboutus-1.jpg" width="438" height="312">
+        </div>
+    </div>
+    <hr>
 
     <!-- Summary section -->
-
+    <div class="three-columns">
+        <div class="left"> 
+            <ol>
+                <li>Functions</li>
+                <li>Downloads</li>
+                <li>Integrations</li>
+                <li>Extras</li>
+            </ol>
+        </div>
+        <div class="middle"> 
+            <ol>
+                <li>About us</li>
+                <li>Customers</li>
+                <li>Resources</li>
+                <li>Blog</li>
+            </ol>
+        </div>
+        <div class="right"> 
+            <ol>
+                <li>Help</li>
+                <li>Tutorials</li>
+                <li>API</li>
+                <li>Contact</li>
+            </ol>
+        </div>
+    </div>
     <!-- Footer -->
+    <footer>
+        <span class="iconos-footer">  
+        <a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter fa-fw fa-6x"></i></a>
+        <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram fa-fw fa-6x"></i></a>
+        <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        </span>
+        </p>Rosario, Argentina</p>
+        <p>Copyright &copy; 2022 Trackgenix- All rights reserved.</p>
+    </footer>
 
 </body>
 </html>
